@@ -46,14 +46,14 @@ const index = () => {
 					</div>
 					<div className="temp">
 						{data.main ? (
-							<h1 className="text-[84px] text-white pl-[150px]">
+							<h1 className="text-[60px] text-white pl-10 xl:text-[84px] xl:pl-[150px] ">
 								{data.main.temp.toFixed()}°F
 							</h1>
 						) : null}
 					</div>
 					<div className="description">
 						{data.weather ? (
-							<p className="text-[64px]  text-white flex items-center pl-[250px]">
+							<p className="text-[48px]  text-white flex items-center pl-[100px] xl:text-[64px] xl:pl-[250px]">
 								{data.weather[0].main}
 								<i className="bx bx-cloud text-white text-[90px]"></i>
 							</p>
@@ -61,7 +61,7 @@ const index = () => {
 					</div>
 				</div>
 				{data.name !== undefined && (
-					<div className="wrapper flex items-center justify-center">
+					<div className="wrapper md:flex md:items-center md:justify-center ">
 						<div className="bottom w-[75%]  bg-slate-500  mt-[300px]   gap-x-[100px] flex items-center justify-center py-5 rounded-xl">
 							<div className="humidity">
 								{data.main ? (
