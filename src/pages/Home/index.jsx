@@ -58,9 +58,6 @@ const index = () => {
 								<i className="bx bx-cloud text-white text-[90px]"></i>
 							</p>
 						) : null}
-						{/* <p className="text-[64px]  text-white flex items-center pl-[250px]">
-							Clouds <i className="bx bx-cloud text-white text-[90px]"></i>
-						</p> */}
 					</div>
 				</div>
 				{data.name !== undefined && (
@@ -81,14 +78,6 @@ const index = () => {
 						</div>
 					</div>
 				)}
-				{/* <div className="bottom w-[75%]  bg-slate-500  mt-[300px] ml-[100px]  gap-x-[100px] flex items-center justify-center py-5 rounded-xl">
-					<div className="humidity">
-						<p className="text-[24px] pl-5 text-white">20%</p>
-					</div>
-					<div className="wind">
-						<p className="text-[24px] pl-5 text-white">12 meter</p>
-					</div>
-				</div> */}
 			</div>
 		</div>
 	);
